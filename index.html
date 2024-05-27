@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="" rel="stylesheet" />
+    <title>Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .container {
+        width: 900px;
+      }
+      .left {
+        width: 270px;
+      }
+
+      @media only screen and (max-width: 500px) {
+        .left {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body class="flex justify-center text-gray-800">
+    <section class="text-sm flex gap-5 md:gap-10 container p-4 md:p-6 flex-col md:flex-row">
+      <article class="flex gap-5 flex-col left">
+        <h1 class="text-3xl font-bold text-black">Duc Duy</h1>
+        <div class="w-full">
+          <img class="w-full object-cover" src="https://picsum.photos/id/1/368/396" />
+        </div>
+        <p class="">
+          Data Scientist with 4+ years of commercial experience in analytics, strategy and sales and
+          a master's degree in Data Science from Oxford University. Previously at Vodafone, VIMA
+          Group (management consulting), Ovo Energy, HSBC.
+        </p>
+        <p class="">Ranked in top 10% of undergraduate cohort at Cambridge University.</p>
+        <a
+          class="text-blue-700 hover:text-blue-900 hover:font-bold transition-all cursor-pointer"
+          href="#"
+          href="#"
+          >View my LinkedIn Profile</a
+        >
+      </article>
+      <hr class="text-gray-600 md:hidden" />
+
+      <article class="flex flex-col gap-5 right flex-1">
+        <div class="flex flex-col gap-5">
+          <h2 class="text-2xl font-bold">
+            Selected projects in data science, machine learning and NLP
+          </h2>
+
+          <!-- section 1 -->
+          <hr class="text-gray-600" />
+          <div class="flex flex-col gap-5">
+            <h3 class="text-base font-medium">Deep NLP for hate speech detection</h3>
+            <p class="">
+              Hate speech detection is the automated task of determining whether a piece of text
+              contains hateful content. In this project, I built a classifier using PyTorch to
+              fine-tune a BERT model.
+            </p>
+            <div class="flex gap-2 flex-wrap">
+              <a
+                href="#"
+                class="rounded bg-gray-200 block py-1 px-2 flex gap-1 text-xs items-center shadow bg-gradient-to-b from-gray-100 to-gray-200"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 448 512">
+                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4 .1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8 .1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3 .1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"
+                  />
+                </svg>
+                <span>Python</span>
+              </a>
+              <a
+                href="#"
+                class="rounded bg-gray-200 block py-1 px-2 flex gap-1 text-xs items-center shadow bg-gradient-to-b from-gray-100 to-gray-200"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 448 512">
+                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4 .1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8 .1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3 .1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"
+                  />
+                </svg>
+                <span>Python</span>
+              </a>
+            </div>
+            <a
+              href="#"
+              class="text-blue-700 hover:text-blue-900 transition-all cursor-pointer"
+              href="#"
+              >View code in Colab</a
+            >
+          </div>
+
+          <!-- section 2-->
+          <hr class="text-gray-600" />
+          <div class="flex flex-col gap-5">
+            <h3 class="text-base font-medium">Deep NLP for hate speech detection</h3>
+            <p class="">
+              Hate speech detection is the automated task of determining whether a piece of text
+              contains hateful content. In this project, I built a classifier using PyTorch to
+              fine-tune a BERT model.
+            </p>
+            <div class="w-full">
+              <img class="w-full h-auto object-cover" src="https://picsum.photos/id/1/300/200" />
+            </div>
+            <div class="flex gap-2 flex-wrap">
+              <a
+                href="#"
+                class="rounded bg-gray-200 block py-1 px-2 flex gap-1 text-xs items-center shadow bg-gradient-to-b from-gray-100 to-gray-200"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 448 512">
+                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4 .1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8 .1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3 .1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"
+                  />
+                </svg>
+                <span>Python</span>
+              </a>
+              <a
+                href="#"
+                class="rounded bg-gray-200 block py-1 px-2 flex gap-1 text-xs items-center shadow bg-gradient-to-b from-gray-100 to-gray-200"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 448 512">
+                  <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4 .1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8 .1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3 .1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z"
+                  />
+                </svg>
+                <span>Python</span>
+              </a>
+            </div>
+            <a
+              href="#"
+              class="text-blue-700 hover:text-blue-900 transition-all cursor-pointer"
+              href="#"
+              >View code in Colab</a
+            >
+          </div>
+        </div>
+        <hr class="text-gray-600" />
+        <div class="flex flex-col gap-5">
+          <h2 class="text-2xl font-bold">Skills-based projects</h2>
+          <p class="">
+            A selection of smaller projects demonstrating specific data science and ML skills.
+          </p>
+          <ul class="list-disc ml-5">
+            <li>
+              <a class="text-blue-500 hover:text-blue-900 transition-all cursor-pointer" href="#"
+                >Working in the cloud: Using data stored in AWS S3 buckets</a
+              >
+            </li>
+            <li>
+              <a class="text-blue-500 hover:text-blue-900 transition-all cursor-pointer" href="#"
+                >Optimising code with multiprocessing</a
+              >
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
